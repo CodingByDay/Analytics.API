@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "oZKX52RywSqdAA1FYTe09igVlfJ9/WC5VrImpW2E6n4=",
+  "Source": "AspNetCoreDashboardBackend",
+  "BasePath": "_content/AspNetCoreDashboardBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
