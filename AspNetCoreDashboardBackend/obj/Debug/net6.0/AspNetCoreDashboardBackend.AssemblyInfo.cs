@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AspNetCoreDashboardBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d17e47b6b7864aa00c28b724752e9ec791557e54")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc042652ff1fc1a4bf8c11be612f0a1bb9f65af8")]
 [assembly: System.Reflection.AssemblyProductAttribute("AspNetCoreDashboardBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AspNetCoreDashboardBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

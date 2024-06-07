@@ -21,7 +21,10 @@ builder.Services.AddDevExpressControls();
 builder.Services.AddControllers();
 
 builder.Services.AddScoped<DashboardConfigurator>((IServiceProvider serviceProvider) => {
-    return DashboardUtils.CreateDashboardConfigurator(configuration, fileProvider);
+    DashboardConfigurator configurator = new DashboardConfigurator();
+    configurator.SetDashboardStorage(new CustomFileStorage(fileProvider.GetFileInfo("App_Data/Dashboards").PhysicalPath));
+    configurator.SetConnectionStringsProvider(new DashboardConnectionStringsProvider(configuration));
+    return configurator;
 });
 
 var app = builder.Build();
